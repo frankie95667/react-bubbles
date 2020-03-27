@@ -27,9 +27,17 @@ In this project you will create a login page and request a token from the server
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Explain what a token is used for.
+  ## A: The token is used to pass as an Authorization value in the header of the HTTP request to authenticate the user before accepting the request. The token is provided to the user in the response when successfully logging in. 
 - [ ] What steps can you take in your web apps to keep your data secure?
+  ## A: The most important step is to authorize the user on the server side before accepting an HTTP request. In the web app, all routes that you would like to only allow a user that's logged in, setup a protected route for that component, instead of a standard route. The protected route checks to see if the user is logged in before routing to the component. If they are not logged in they will be redirected to a unprotected route.
 - [ ] Describe how web servers work.
+  ## A: Web servers are applications that run in the physical server that accepts HTTP requests and will provide some sort of response to every request. They serve up the HTML pages and/or web apps to your local browser. 
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+   ## A:  
+    (C)reate: POST
+    (R)ead:   GET
+    (U)pdate: PUT
+    (D)elete: DELETE 
 
 
 ## Project Set Up
