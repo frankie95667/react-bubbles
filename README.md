@@ -33,11 +33,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 - [ ] Describe how web servers work.
   ## A: Web servers are applications that run in the physical server that accepts HTTP requests and will provide some sort of response to every request. They serve up the HTML pages and/or web apps to your local browser. 
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
-   ## A:  
-    (C)reate: POST
-    (R)ead:   GET
-    (U)pdate: PUT
-    (D)elete: DELETE 
+   ## A: (C)reate = POST, (R)ead = GET, (U)pdate = PUT, (D)elete = DELETE 
 
 
 ## Project Set Up
